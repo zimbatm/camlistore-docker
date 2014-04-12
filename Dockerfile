@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM debian
 MAINTAINER zimbatm <zimbatm@zimbatm.com>
 
 # Storage
