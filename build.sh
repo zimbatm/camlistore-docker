@@ -24,3 +24,4 @@ cp -r bin/* /bin
 cd /
 rm -rf /usr/local/go
 rm -rf /usr/src/camlistore-${VERSION}
+rm $0
