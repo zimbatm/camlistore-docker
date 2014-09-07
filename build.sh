@@ -2,7 +2,7 @@
 set -e
 cd `dirname $0`
 
-VERSION=0.7
+VERSION=0.8
 
 # Dependendies
 apt-get update -qy
