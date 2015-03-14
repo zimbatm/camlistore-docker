@@ -1,9 +1,9 @@
 #!/bin/sh
 set -e
-cd `dirname $0`
+cd "$(dirname "$0")"
 
 VERSION=0.8
-GO_VERSION=1.3.3
+GO_VERSION=1.4.2
 
 # Dependendies
 apt-get update -qy
@@ -25,4 +25,4 @@ cp -r bin/* /bin
 cd /
 rm -rf /usr/local/go
 rm -rf /usr/src/camlistore-${VERSION}
-rm $0
+rm "$0"
